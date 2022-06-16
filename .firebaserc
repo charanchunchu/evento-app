@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "evento-9ba8e"
+  },
+  "targets": {
+    "evento-9ba8e": {
+      "hosting": {
+        "app": [
+          "evento-9ba8e"
+        ]
+      }
+    }
+  }
+}
