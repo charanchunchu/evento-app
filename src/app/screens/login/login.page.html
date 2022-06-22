@@ -1,0 +1,39 @@
+<!-- <ion-content class="ion-padding">
+  <h1>Welcome,</h1>
+  <h3>Sign in to continue!</h3>
+
+  <form>
+    <app-input type="text" #email required label="Email ID"></app-input>
+    <app-input type="password" #password required label="Password" type="password"></app-input>
+    <a routerLink="/password-reset" class="forgot-password-link">Forgot Password?</a>
+
+    <app-button label='Login' type="submit" (click)="logIn(email, password)" expand="block"></app-button>
+    <app-icon-button (click)="authService.GoogleAuth()" icon='logo-google' label='Connect with Google'></app-icon-button>
+  </form>
+
+  <p class="footer-text">I'm a new user, <a routerLink="/registration">Sign Up</a></p>
+</ion-content> -->
+
+
+<ion-content class="ion-padding">
+  <h1>Welcome,</h1>
+  <h3>Sign in to continue!</h3>
+
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" #email required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" #password required></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <app-button label='Login' type="submit" (click)="logIn(email, password)" expand="block"></app-button>
+      <app-icon-button (click)="authService.GoogleAuth()" icon='logo-google' label='Connect with Google'></app-icon-button>
+    </ion-col>
+    </ion-row>
+  </form>
+  <p class="footer-text">I'm a new user, <a routerLink="/registration">Sign Up</a></p>
+</ion-content>

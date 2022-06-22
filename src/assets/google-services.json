@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "329548252531",
+    "firebase_url": "https://evento-aed45-default-rtdb.firebaseio.com",
+    "project_id": "evento-aed45",
+    "storage_bucket": "evento-aed45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329548252531:android:ef4b08b8a20310b925b106",
+        "android_client_info": {
+          "package_name": " io.ionic.Evento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329548252531-sutnf144vt5hpfstqadt4rbe5ho9cbde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP4De1U4FZq9uYn-t4mNV4g5QHNck7UtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329548252531-sutnf144vt5hpfstqadt4rbe5ho9cbde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,6 +7,7 @@ import {
   AngularFirestore,
   AngularFirestoreDocument,
 } from '@angular/fire/compat/firestore';
+import firebase from 'firebase/compat';
 @Injectable({
   providedIn: 'root',
 })
@@ -79,7 +80,7 @@ export class AuthenticationService {
   }
   // Auth providers
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  AuthLogin(provider) {
+  AuthLogin(provider: auth.GoogleAuthProvider | firebase.auth.AuthProvider) {
     return this.ngFireAuth
       .signInWithPopup(provider)
       .then((result) => {

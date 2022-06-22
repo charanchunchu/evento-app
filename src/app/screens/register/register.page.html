@@ -1,0 +1,14 @@
+<ion-content class="ion-padding">
+  <h1>Create Account,</h1>
+  <h3>Sign up to get started!</h3>
+
+  <form>
+    <app-input type="text" #email required label="Email ID"></app-input>
+    <app-input  type="password" #password required label="Password" type="password"></app-input>
+
+    <app-button type="submit" (click)="signUp(email, password)" expand="block" label='Register'></app-button>
+    <app-icon-button icon='logo-google' label='Connect with Google'></app-icon-button>
+  </form>
+
+  <p class="footer-text">I'm already a member, <a routerLink="/registration">Sign In</a></p>
+</ion-content>

@@ -18,6 +18,16 @@ h3 {
 form {
   margin-top: 6rem;
 
+  .forgot-password-link {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+    color: #4a4a4a;
+  }
+
   app-button {
     display: block;
     margin-top: 3rem;
@@ -27,7 +37,7 @@ form {
 .footer-text {
   text-align: center;
   font-size: 17px;
-  margin-top: 15%;
+  margin-top: 20%;
 
   a {
     text-decoration: none;
