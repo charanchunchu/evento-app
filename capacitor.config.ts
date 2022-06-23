@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.Evento',
-  appName: 'ionic-firebase-authentication',
+  appName: 'Evento',
   webDir: 'www',
   bundledWebRuntime: false
 };
